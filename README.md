@@ -43,7 +43,7 @@ The source code is in [github](https://github.com/yorkhuang-au/anonymizer)
 
 ```
 cd ~
-git checkout anonymizer
+git clone git@github.com:yorkhuang-au/anonymizer.git
 cd ~/anonymizer
 ```
 
