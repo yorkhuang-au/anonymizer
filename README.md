@@ -99,8 +99,8 @@ cd ~/anonymizer/app
 docker run --rm -v $(pwd)/data:/data prod A$!23
 ```
 
-It will create a input file like '~/anonymizer/app/data/input_yyyyMMdd_HHMMSS.csv'.
-The output file is '~/anonymizer/app/data/out_input_yyyyMMdd_HHMMSS.csv'.
+It will create a input file like ~/anonymizer/app/data/input_yyyyMMdd_HHMMSS.csv.
+The output file is ~/anonymizer/app/data/out_input_yyyyMMdd_HHMMSS.csv.
 
 
 ### Auto-generate file and secret
@@ -116,5 +116,5 @@ cd ~/anonymizer/app
 docker run --rm -v $(pwd)/data:/data prod
 ```
 
-It will create a input file like '~/anonymizer/app/data/input_yyyyMMdd_HHMMSS.csv'.
-The output file is '~/anonymizer/app/data/out_input_yyyyMMdd_HHMMSS.csv'.
+It will create a input file like ~/anonymizer/app/data/input_yyyyMMdd_HHMMSS.csv.
+The output file is ~/anonymizer/app/data/out_input_yyyyMMdd_HHMMSS.csv.
