@@ -83,6 +83,7 @@ For example,
 ```
 cd ~/anonymizer/app
 docker run --rm -v $(pwd)/data:/data prod A$!23 /data/sample.csv /data/out_sample.csv
+ls -la ~/anonymizer/app/data
 ```
 The output file will be created at ~/anonymizer/app/data folder.
 
@@ -97,6 +98,7 @@ For example,
 ```
 cd ~/anonymizer/app
 docker run --rm -v $(pwd)/data:/data prod A$!23
+ls -la ~/anonymizer/app/data
 ```
 
 It will create a input file like ~/anonymizer/app/data/input_yyyyMMdd_HHMMSS.csv.
@@ -114,6 +116,7 @@ For example,
 ```
 cd ~/anonymizer/app
 docker run --rm -v $(pwd)/data:/data prod
+ls -la ~/anonymizer/app/data
 ```
 
 It will create a input file like ~/anonymizer/app/data/input_yyyyMMdd_HHMMSS.csv.
