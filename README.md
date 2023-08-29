@@ -53,7 +53,7 @@ Docker stages are used for testing and production.
 For unit test
 ```
 cd ~/anonymizer/app
-docker build . -t test -f Dockerfile --target test
+docker build . -t test -f Dockerfile --target test --progress=plain --no-cache
 ```
 
 ### Build prod image
