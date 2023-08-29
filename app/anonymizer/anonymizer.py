@@ -1,3 +1,7 @@
+"""
+This module is to anonymize a csv file.
+"""
+
 import sys
 import os
 import datetime
